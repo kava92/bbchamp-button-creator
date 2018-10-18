@@ -1,0 +1,44 @@
+{
+  "name": "@bbchamp/button-creator",
+  "version": "0.1.0",
+  "description": "button creator bbchamp module for react app",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel lib -d build",
+    "lint": "eslint lib/**; exit 0",
+    "lint:watch": "esw -w lib/**",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kava92/bbchamp-button-creator.git"
+  },
+  "keywords": [
+    "react",
+    "button",
+    "creator"
+  ],
+  "author": "kava92",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kava92/bbchamp-button-creator/issues"
+  },
+  "homepage": "https://github.com/kava92/bbchamp-button-creator#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^5.7.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-watch": "^4.0.2",
+    "prettier": "^1.14.3",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "styled-components": "^4.0.2"
+  }
+}
